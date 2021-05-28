@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    margin:0px 30px;
+
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.966), rgba(29, 212, 60, 0.171)), url('https://mcdn.wallpapersafari.com/medium/7/69/dxBmov.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: 100% 10%;
+}
+
+nav{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(235, 9, 9, 0.5));
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+    margin-right: 30px;
+
+    
+}
+.search{
+    float:right;
+}  
+
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    position: relative;
+    top:2px;
+}
+
+nav::after{
+    content: '';
+    clear: both;
+    display:block;
+}
+
+li{
+    display:inline-block;
+}
+
+li:hover{
+    background-color: crimson;
+}
+
+li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 5px;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.search input{
+    border-radius: 25px;
+    margin-right: 10px;
+    position: relative;
+    top:9px;
+    height: 16px;
+}
+label img{
+    position: relative;
+    top:15px;
+
+}
+
+.trim{
+    display:inline-block;
+    position:relative;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-transform: capitalize;
+    font-size: 60px;
+    text-shadow: 5px 0px 10px red;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    padding:47px 0;
+}
+
+.wrap div{
+    width: 30%;
+    background-color: white;
+}
+.wrap div p{
+    padding: 0px 5px;
+}
+.info{
+    /* background: linear-gradient(rgba(233, 61, 61, 0.5), rgba(68, 190, 52, 0.295), rgba(64, 60, 121, 0.342)); */
+    background-image: url('https://image.freepik.com/free-vector/beautiful-mandala-style-background-with-text-space_1017-27397.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap h4{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: 2px solid black underline;
+}
+
+.clubs{
+    background-color: khaki;
+    
+}
+.clubs h2{
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 900;
+    border-bottom: 3px solid  ;
+}
+
+.shrink{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.shrink div{
+    width:22%;
+    
+}
+
+.shrink h4{
+    text-align: center;
+}
+.shrink img{
+    background-color: white;
+    height:15vw;
+    width: 15vw;
+    margin: 4px 3vw;
+}
+footer{
+    background-color: salmon;
+    padding-bottom: 15px;
+}
+.reach{
+    float:left;
+    width:48%;
+}
+.social{
+    float: right;
+    width:48%;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.social img{
+    height:40px;
+    width:40px;
+    /* padding: 4px 20px; */
+}
+.fwrap1{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+.fwrap2{
+    display: flex;
+}
+.reach h1{
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+form [type="submit"]
+{
+    background-color:yellowgreen;
+    position: relative;
+    bottom:15px;
+    left:5px;
+    width:100px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+
+}
